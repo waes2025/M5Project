@@ -31,5 +31,5 @@ for ($i=0; $i < 4; $i++) {
     $str = $strings[$index=$i];
     $strr = strrev($strings[$index=$i]);
     $strv = countVow($strings[$index=$i]);
-    print_r("Original String: ". $str ." Vowel Count: " . $strv . " Reversed String: ". $strr . "\n");
+    print_r("Original String: \033[01;31m". $str ."\033[0m, Vowel Count: \033[01;31m" . $strv . "\033[0m, Reversed String: \033[01;31m". $strr ."\033[0m \n");
 }
